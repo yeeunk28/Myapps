@@ -1,5 +1,7 @@
+import streamlit as st
+import pandas as pd
 
-streamlit.title("📚 Vocabulary List Viewer")
+st.title("📚 Vocabulary List Viewer")
 
 # Sample vocabulary data
 data = {
@@ -13,5 +15,5 @@ data = {
     ]
 }
 
-df = pandas.DataFrame(data)
-streamlit.dataframe(df)
+df = pd.DataFrame(data)
+st.dataframe(df)
