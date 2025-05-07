@@ -1,5 +1,5 @@
 
-st.title("📚 Vocabulary List Viewer")
+streamlit.title("📚 Vocabulary List Viewer")
 
 # Sample vocabulary data
 data = {
